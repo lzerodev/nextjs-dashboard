@@ -2,7 +2,7 @@
 
 ## Navigating Between Pages
 
-- [ ] How to use the next/link component.
+- [x] How to use the next/link component.
 
 - [ ] How to show an active link with the usePathname() hook.
 
