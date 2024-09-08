@@ -6,4 +6,4 @@
 
 - [x] How to show an active link with the usePathname() hook.
 
-- [ ] How navigation works in Next.js..
+- [x] How navigation works in Next.js..
