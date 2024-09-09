@@ -8,4 +8,4 @@
 
 - [x] What network waterfalls are.
 
-- [ ] How to implement parallel data fetching using a JavaScript Pattern.
+- [x] How to implement parallel data fetching using a JavaScript Pattern.
