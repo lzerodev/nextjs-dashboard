@@ -2,13 +2,18 @@
 
 ## Streaming
 
-- [ ] What streaming is and when you might use it.
+- [x] What streaming is and when you might use it.
 
-- [ ] How to implement streaming with loading.tsx and Suspense.
+- [x] How to implement streaming with loading.tsx and Suspense.
 
-- [ ] What loading skeletons are.
+- [x] What loading skeletons are.
 
-- [ ] What route groups are, and when you might use them.
+- [x] What route groups are, and when you might use them.
 
-- [ ] Where to place Suspense boundaries in your application.
+- [x] Where to place Suspense boundaries in your application.
 
+In general, what is considered good practice when working with Suspense and data fetching?
+
+*Move data fetches down to the components that need it*
+
+**By moving data fetching down to the components that need it, you can create more granular Suspense boundaries. This allows you to stream specific components and prevent the UI from blocking.**
