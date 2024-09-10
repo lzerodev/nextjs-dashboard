@@ -2,9 +2,9 @@
 
 ## Static and Dynamic Rendering
 
-- [ ] What static rendering is and how it can improve your application's performance.
+- [x] What static rendering is and how it can improve your application's performance.
 
-- [ ]  What dynamic rendering is and when to use it.
+- [x]  What dynamic rendering is and when to use it.
 
 - [ ] Different approaches to make your dashboard dynamic.
 
@@ -26,3 +26,13 @@ Whenever a user visits your application, the cached result is served. There are 
 Static rendering is useful for UI with no data or data that is shared across users, such as a static blog post or a product page. It might not be a good fit for a dashboard that has personalized data which is regularly updated.
 
 The opposite of static rendering is dynamic rendering.
+
+## What is Dynamic Rendering?
+
+With dynamic rendering, content is rendered on the server for each user at request time (when the user visits the page). There are a couple of benefits of dynamic rendering:
+
+*Real-Time Data* - Dynamic rendering allows your application to display real-time or frequently updated data. This is ideal for applications where data changes often.
+
+*User-Specific Content* - It's easier to serve personalized content, such as dashboards or user profiles, and update the data based on user interaction.
+
+*Request Time Information* - Dynamic rendering allows you to access information that can only be known at request time, such as cookies or the URL search parameters.
