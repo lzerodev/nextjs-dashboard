@@ -6,9 +6,9 @@
 
 - [x]  What dynamic rendering is and when to use it.
 
-- [ ] Different approaches to make your dashboard dynamic.
+- [x] Different approaches to make your dashboard dynamic.
 
-- [ ] Simulate a slow data fetch to see what happens.
+- [x] Simulate a slow data fetch to see what happens.
 
 
 ## What is Static Rendering?
@@ -36,3 +36,5 @@ With dynamic rendering, content is rendered on the server for each user at reque
 *User-Specific Content* - It's easier to serve personalized content, such as dashboards or user profiles, and update the data based on user interaction.
 
 *Request Time Information* - Dynamic rendering allows you to access information that can only be known at request time, such as cookies or the URL search parameters.
+
+****With dynamic rendering, your application is only as fast as your slowest data fetch.****
